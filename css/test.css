@@ -1,0 +1,164 @@
+img {
+    display: inline-block;
+    width: 76%;
+    position: relative;
+    left: 11%;
+    /* margin-left: 12%; */
+    margin-bottom: 9%;
+    border: solid 5px #000000;
+    transition: 1s ease;
+}
+
+img:hover {
+    left: 3%;
+    width: 92%;
+    height: 16%;
+}
+
+header {
+    background: url(../images/flywheel.jpg);
+    background-position: top;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 3%;
+    margin-top: 0%;
+}
+
+body {
+    margin: 2%;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(14, 13, 13, 0.986);
+    text-transform: uppercase;
+    margin-top: 2%;
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+h2 {
+    color: rgba(136, 158, 14, 0.884);
+    text-transform: uppercase;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(224, 227, 215);
+    background-color: rgba(119, 129, 77, 0.48);
+    width: 10%;
+    position: relative;
+    left: 6%;
+    border: none;
+    border-radius: 8%;
+    padding: 1.2% 3%;
+    font-size: 120%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3%;
+    /* margin-top: 2%; */
+    margin-left: 5%;
+    transition: 1s ease;
+}
+
+.left {
+    float: left;
+    width: 22%;
+    min-height: 100vh;
+    background-color: rgba(136, 158, 14, 0.4);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 4%;
+    padding-right: 3%;
+    display: inline-block;
+}
+
+.right {
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    font-size: 150%;
+}
+
+table {
+    position: relative;
+    left: 10vh;
+    border-spacing: 0;
+    border-radius: 10px;
+}
+
+table tr {
+    background-color: rgba(135, 172, 62, 0.705);
+    display: table-row;
+    height: 5vh;
+    font-size: medium;
+    transition: ease-in-out;
+}
+
+table tr:hover {
+    background-color: rgba(162, 214, 57, 1);
+}
+
+tr:first-child {
+    margin: 2px;
+    /* padding: 1px; */
+    height: 7vh;
+    font-size: 50%;
+    /* padding-right: 2px; */
+    background-color: #5f7b09ba;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: solid;
+}
+
+tr:first-child:hover {
+    background-color: #5f7b09ba;
+}
+
+tr td:nth-child(3n + 1) {
+    color: #000000;
+    /* padding-right: 31px; */
+    width: 61%;
+    font-size: small;
+    padding-left: 7px;
+    border: 1.5px solid white;
+    transition: ease-in-out;
+}
+
+tr th:nth-child(3n + 1) {
+    color: #000000;
+    /* padding-right: 31px; */
+    text-align: left;
+    padding-left: 7px;
+    /* border-bottom: 0px; */
+    border-right: solid white 1.5px;
+    border-left: solid white 1.5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+tr th:nth-child(3n+2),
+tr th:nth-child(3n) {
+    border-right: solid white 1.5px;
+    border-left: solid white 1.5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+tr td:nth-child(3n),
+tr td:nth-child(3n+2) {
+    color: #000000;
+    text-align: center;
+    padding: 0px 16px;
+    font-size: small;
+    border: 1.5px solid rgb(252, 248, 248);
+    transition: ease-in-out;
+}
+
+tr th td:nth-child(1) {
+    border-radius: 0px 0px 0px 25px;
+}
+
+.active {
+    background-color: rgba(131, 173, 211, 0.74);
+}
